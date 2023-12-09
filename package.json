@@ -1,5 +1,5 @@
 {
-  "name": "my-library",
+  "name": "@YOUR_NAME/my-library",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,5 +17,8 @@
   },
   "peerDependencies": {
     "react": "^18.2.0"
+  },
+  "publishConfig": {
+    "@YOUR_NAME:registry": "https://npm.pkg.github.com"
   }
 }
