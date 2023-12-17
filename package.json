@@ -1,11 +1,11 @@
 {
   "name": "@ZhangErmiao/my-library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.umd.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "files": ["dist/Button/Button.d.ts", "dist/Button/index.d.ts", "dist/Card/Card.d.ts", "dist/Card/index.d.ts", "dist/style.css"],
+  "files": ["dist"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "build": "vite build && tsc"
